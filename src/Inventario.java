@@ -6,10 +6,10 @@ public class Inventario {
         // Cargando constructor sin parámetros
         DatosUsuario objDatosUsuario = new DatosUsuario();
 
-        objDatosUsuario.setCedulaUsuario("1023163824");
-        objDatosUsuario.setNombre("Kevin Santiago Sierra Rodriguez");
-        objDatosUsuario.setEmail("santis.sierra6@gmail.com");
-        objDatosUsuario.setContacto("3142942160");
+        objDatosUsuario.setCedulaUsuario("1123443824");
+        objDatosUsuario.setNombre("Kevin Rodriguez");
+        objDatosUsuario.setEmail("santis.6@gmail.com");
+        objDatosUsuario.setContacto("3222942160");
 
         System.out.println("Los datos del usuario son \"usando constructor sin parámetros\": \n");
         System.out.println("Cédula de ciudadania del usuario: " + objDatosUsuario.getCedulaUsuario());
