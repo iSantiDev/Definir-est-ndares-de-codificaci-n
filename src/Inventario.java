@@ -19,7 +19,11 @@ public class Inventario {
 
 
         // Cargando constructor con parámetros
-        DatosUsuario objDatosUsuario2 = new DatosUsuario("1024567890", "Laura Martínez Hernández", "laura.martinez@example.com", "3109876543");
+        DatosUsuario objDatosUsuario2 = new DatosUsuario(
+            "1024567890", 
+            "Laura Martínez Hernández", 
+            "laura.martinez@example.com", 
+            "3109876543");
 
         System.out.println("Los datos del usuario son: \"usando constructor con parámetros\"\n");
         System.out.println("Cédula de ciudadania del usuario: " + objDatosUsuario2.getCedulaUsuario());

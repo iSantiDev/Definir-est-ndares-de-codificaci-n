@@ -35,7 +35,4 @@ public class Pedido {
     public void setEstadoPedido(String estadoPedido) {
         EstadoPedido = estadoPedido;
     }
-
-
-    
 }
